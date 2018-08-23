@@ -1,0 +1,51 @@
+@media #{$small-and-down} {
+    #logo-img {
+        height: 80%;
+        margin-top: 6px;
+    }
+    .header-container {
+        margin-top: 30px;
+    }
+}
+
+
+@media #{$medium-and-down} {
+    #logo-img {
+        float: right;
+        margin-top: 8px;
+    }
+    .icon-block {
+        height: auto;
+    }
+    .icon-block h4 {
+        margin-bottom: 15px;
+        margin-top: 20px;    
+    }
+
+    nav .brand-logo {
+        width: 250px;
+        left: 60%;
+    }
+    nav h2 {
+        font-size: 70%;
+    }
+    .padding {
+        padding: 20px 0 0;
+    }
+
+}
+
+@media #{$large-and-up} {
+    .icon-block {
+        height: 330px;
+    }
+    .padding {
+        padding: 40px 0 30px;
+    }
+}
+
+@media #{$extra-large-and-up} {
+    .icon-block {
+        height: 280px;
+    }
+}

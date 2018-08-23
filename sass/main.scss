@@ -1,0 +1,14 @@
+$small-screen: 750px !default;
+$navbar-height: 75px !default;
+$navbar-line-height: $navbar-height !default;
+// $button-large-font-size: 1.2em !default;
+$input-border-color: #1a237e !default;
+
+$input-focus-color: teal !default;
+
+@import 'materialize';
+@import 'styles';
+@import 'media';
+
+
+
